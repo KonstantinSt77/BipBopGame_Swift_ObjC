@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HB1-4r-uXd">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArialRoundedMTBold.ttf">
+            <string>ArialRoundedMTBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="dD1-53-QC6">
+            <objects>
+                <navigationController id="HB1-4r-uXd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="jxL-1g-dNz">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="0.9999879002571106" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.4095911979675293" green="0.66081959009170532" blue="0.97275406122207642" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.58368390798568726" green="0.98809748888015747" blue="0.99221891164779663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                            <color key="textColor" red="0.36974391816040258" green="0.59874407855815281" blue="0.8985994170984456" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="1" green="0.9999879002571106" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xsy-Km-O5o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zWC-XJ-pmG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1494" y="-9"/>
+        </scene>
+        <!--StartVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MGStartVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to BipBop! 🎉" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENq-en-8q7">
+                                <rect key="frame" x="8" y="119" width="359" height="100.66666666666669"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100.67" id="EYT-k1-nqk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="43"/>
+                                <color key="textColor" red="0.41046190052353571" green="0.6639143275542474" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.25086256242951954" green="0.40623379157636019" blue="0.60967859455958551" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.33784790467884168" green="0.54709333255883474" blue="0.82108160621761661" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Left Anywhere to start playing! 👈🏼" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPA-ot-3oL">
+                                <rect key="frame" x="20" y="294.66666666666669" width="335" height="133"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="133" id="6LJ-RT-xLi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="33"/>
+                                <color key="textColor" red="0.70668122530564492" green="0.44539241179173872" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.45457704628125012" green="0.28650140931762141" blue="0.64325615284974091" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rulles 📄" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bl7-1X-WPt">
+                                <rect key="frame" x="8" y="727" width="359" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="r5I-Wr-THS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
+                                <color key="textColor" red="0.3097086976543949" green="0.63178270572036466" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.26743466395577847" green="0.54554682150367628" blue="0.86350388601036265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUC-Np-TEK">
+                                <rect key="frame" x="0.0" y="727" width="375" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="QfR-8a-jKg"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="openRules:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JHK-mY-zAG"/>
+                                </connections>
+                            </button>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8o-Oh-CCN">
+                                <rect key="frame" x="16" y="444" width="343" height="267"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Упражнение основано на популярной умственной математической игре. Дети обычно сидят за столом, первый игрок говорит «1», и каждый следующий игрок подсчитывает. Числа, которые делятся на 3 или 5, заменяются соответствующим словом, в нашем случае «Bip» и «Bop». Если число делится на оба числа, оно становится «Bip Bop». Если игрок совершает ошибку или думает слишком много времени, он исключаются из игры.
+Это приложение генерирует правильную последовательность игр для выбранных номеров.</string>
+                                <color key="textColor" red="0.23846201998144417" green="0.50376425967683114" blue="0.78023801813471505" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.58356144644216856" green="0.98671439893326462" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bl7-1X-WPt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="80o-Ef-riW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ENq-en-8q7" secondAttribute="trailing" constant="8" id="CWm-8O-QlQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MPA-ot-3oL" secondAttribute="trailing" constant="20" id="Ehu-K3-DCR"/>
+                            <constraint firstItem="ENq-en-8q7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="JID-a4-4q3"/>
+                            <constraint firstItem="MPA-ot-3oL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JYx-f4-gO4"/>
+                            <constraint firstItem="A8o-Oh-CCN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MlX-ct-vGX"/>
+                            <constraint firstItem="A8o-Oh-CCN" firstAttribute="top" secondItem="MPA-ot-3oL" secondAttribute="bottom" constant="16" id="P0q-NJ-SsD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bl7-1X-WPt" secondAttribute="bottom" constant="8" id="UZ2-Vz-4QB"/>
+                            <constraint firstItem="VUC-Np-TEK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YWC-Nl-jRC"/>
+                            <constraint firstItem="MPA-ot-3oL" firstAttribute="top" secondItem="ENq-en-8q7" secondAttribute="bottom" constant="75" id="ZqM-6H-l0D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A8o-Oh-CCN" secondAttribute="trailing" constant="16" id="fG3-Hh-gad"/>
+                            <constraint firstItem="ENq-en-8q7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="fTu-rp-Bms"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bl7-1X-WPt" secondAttribute="trailing" constant="8" id="fjI-rG-5BA"/>
+                            <constraint firstItem="VUC-Np-TEK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="se0-VB-ILh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VUC-Np-TEK" secondAttribute="bottom" id="uGn-oD-hCQ"/>
+                            <constraint firstItem="bl7-1X-WPt" firstAttribute="top" secondItem="A8o-Oh-CCN" secondAttribute="bottom" constant="16" id="wLf-sk-A7o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tD4-Iw-D8N"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="textView" destination="A8o-Oh-CCN" id="1g6-1V-Mqz"/>
+                        <segue destination="fBL-Kn-x9P" kind="show" identifier="StartPlayingSegue" id="60W-tv-AWp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-802.39999999999998" y="-10.344827586206897"/>
+        </scene>
+        <!--BipBop Game-->
+        <scene sceneID="wvM-XK-tXf">
+            <objects>
+                <viewController id="fBL-Kn-x9P" customClass="MGMainVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1FX-Zq-UG4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VVd-D5-r3X">
+                                <rect key="frame" x="45" y="89" width="96" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="mjF-gK-thf"/>
+                                </constraints>
+                                <color key="textColor" red="0.70696288347244263" green="0.4456709623336792" blue="0.96885806322097778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Bip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAK-zY-yig">
+                                <rect key="frame" x="8" y="60" width="170" height="21"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                <color key="textColor" red="0.4095911979675293" green="0.66081959009170532" blue="0.97275406122207642" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.25121233594550529" green="0.40680019662387223" blue="0.61052865932642486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Bop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kni-ti-82d">
+                                <rect key="frame" x="196" y="60" width="171" height="21"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                <color key="textColor" red="0.4095911979675293" green="0.66081959009170532" blue="0.97275406122207642" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.26601941478890356" green="0.43077801030188467" blue="0.64651473445595853" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FFN-T6-kCy">
+                                <rect key="frame" x="186" y="60" width="2" height="90"/>
+                                <color key="backgroundColor" red="0.30294638872146606" green="0.60872882604598999" blue="0.96100610494613647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="RD6-yd-Xs8"/>
+                                    <constraint firstAttribute="width" constant="2" id="iZN-jZ-yRU"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pie-5a-7NM">
+                                <rect key="frame" x="233" y="89.666666666666671" width="97" height="61.000000000000014"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="70g-tY-c96"/>
+                                </constraints>
+                                <color key="textColor" red="0.70696288347244263" green="0.4456709623336792" blue="0.96885806322097778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Bch-IG-rmp">
+                                <rect key="frame" x="0.0" y="158" width="375" height="571"/>
+                                <color key="backgroundColor" red="1" green="0.9999879002571106" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ResultCellID" rowHeight="148" id="2s7-Z2-wTa" customClass="MGTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="148"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2s7-Z2-wTa" id="qCA-4g-Kqg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="147.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsi-d8-4pX">
+                                                    <rect key="frame" x="50" y="8" width="275" height="131.66666666666666"/>
+                                                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
+                                                    <color key="textColor" red="0.70696288347244263" green="0.4456709623336792" blue="0.96885806322097778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <color key="shadowColor" red="0.52013465022220517" green="0.32865371648859953" blue="0.7285864637305699" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <size key="shadowOffset" width="1" height="1"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Rsi-d8-4pX" secondAttribute="trailing" constant="50" id="2yC-n4-a35"/>
+                                                <constraint firstItem="Rsi-d8-4pX" firstAttribute="leading" relation="lessThanOrEqual" secondItem="qCA-4g-Kqg" secondAttribute="leading" constant="50" id="3QY-4Q-rv9"/>
+                                                <constraint firstItem="Rsi-d8-4pX" firstAttribute="top" secondItem="qCA-4g-Kqg" secondAttribute="top" constant="8" id="a59-kL-zmE"/>
+                                                <constraint firstAttribute="bottom" secondItem="Rsi-d8-4pX" secondAttribute="bottom" constant="8" id="oE4-a0-7VD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.9999879002571106" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <outlet property="customLabel" destination="Rsi-d8-4pX" id="3uB-GY-pEq"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9999879002571106" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Pie-5a-7NM" firstAttribute="top" secondItem="kni-ti-82d" secondAttribute="bottom" constant="8.6666666666666714" id="2BP-Hy-Ljb"/>
+                            <constraint firstItem="Icu-Fm-gQK" firstAttribute="trailing" secondItem="Pie-5a-7NM" secondAttribute="trailing" constant="45" id="3T5-lb-X8N"/>
+                            <constraint firstItem="Bch-IG-rmp" firstAttribute="leading" secondItem="Icu-Fm-gQK" secondAttribute="leading" id="4hL-80-NWW"/>
+                            <constraint firstItem="Icu-Fm-gQK" firstAttribute="trailing" secondItem="kni-ti-82d" secondAttribute="trailing" constant="8" id="8fP-hK-euf"/>
+                            <constraint firstItem="kni-ti-82d" firstAttribute="top" secondItem="Icu-Fm-gQK" secondAttribute="top" constant="16" id="8p2-Ee-r73"/>
+                            <constraint firstItem="Icu-Fm-gQK" firstAttribute="trailing" secondItem="Bch-IG-rmp" secondAttribute="trailing" id="Fiy-76-Xwd"/>
+                            <constraint firstItem="VVd-D5-r3X" firstAttribute="leading" secondItem="Icu-Fm-gQK" secondAttribute="leading" constant="45" id="JNq-ri-lSQ"/>
+                            <constraint firstItem="FFN-T6-kCy" firstAttribute="leading" secondItem="PAK-zY-yig" secondAttribute="trailing" constant="8" id="Jfi-Qk-PUe"/>
+                            <constraint firstItem="kni-ti-82d" firstAttribute="leading" secondItem="FFN-T6-kCy" secondAttribute="trailing" constant="8" id="JgA-QB-Knt"/>
+                            <constraint firstItem="FFN-T6-kCy" firstAttribute="leading" secondItem="VVd-D5-r3X" secondAttribute="trailing" constant="45" id="L3I-fZ-V0p"/>
+                            <constraint firstItem="VVd-D5-r3X" firstAttribute="top" secondItem="PAK-zY-yig" secondAttribute="bottom" constant="8" id="Nyw-TQ-2W2"/>
+                            <constraint firstItem="Bch-IG-rmp" firstAttribute="top" secondItem="VVd-D5-r3X" secondAttribute="bottom" constant="8" id="Tgq-Lk-1MC"/>
+                            <constraint firstItem="PAK-zY-yig" firstAttribute="leading" secondItem="Icu-Fm-gQK" secondAttribute="leading" constant="8" id="X8g-7r-luM"/>
+                            <constraint firstItem="Icu-Fm-gQK" firstAttribute="bottom" secondItem="Bch-IG-rmp" secondAttribute="bottom" id="cQZ-mq-TKM"/>
+                            <constraint firstItem="FFN-T6-kCy" firstAttribute="top" secondItem="Icu-Fm-gQK" secondAttribute="top" constant="16" id="kQj-lL-nmn"/>
+                            <constraint firstItem="FFN-T6-kCy" firstAttribute="centerX" secondItem="1FX-Zq-UG4" secondAttribute="centerX" id="mVB-Vv-lnO"/>
+                            <constraint firstItem="PAK-zY-yig" firstAttribute="top" secondItem="Icu-Fm-gQK" secondAttribute="top" constant="16" id="qCG-Kt-8XL"/>
+                            <constraint firstItem="Pie-5a-7NM" firstAttribute="leading" secondItem="FFN-T6-kCy" secondAttribute="trailing" constant="45" id="vV4-ve-09V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Icu-Fm-gQK"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="BipBop Game" id="D2k-iZ-44o">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="refresh" id="ckS-f8-gTF">
+                            <color key="tintColor" red="0.4095911979675293" green="0.66081959009170532" blue="0.97275406122207642" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="refreshScreen:" destination="fBL-Kn-x9P" id="r2p-2V-mLY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="bipTxtField" destination="VVd-D5-r3X" id="6Yt-o5-fXt"/>
+                        <outlet property="bopTextField" destination="Pie-5a-7NM" id="0X5-o0-qjz"/>
+                        <outlet property="tableView" destination="Bch-IG-rmp" id="hXL-J5-Nhh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHL-WY-r6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-95.200000000000003" y="-10.344827586206897"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EpB-mS-zSQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArialRoundedMTBold.ttf">
+            <string>ArialRoundedMTBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Hello!-->
+        <scene sceneID="bWr-EC-K6x">
+            <objects>
+                <viewController id="EpB-mS-zSQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adm-BW-dII">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to BipBop! 🎉" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whw-X0-SsG">
+                                <rect key="frame" x="8" y="28" width="359" height="631"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="43"/>
+                                <color key="textColor" red="0.41046190049999998" green="0.66391432760000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.25086256239999999" green="0.4062337916" blue="0.60967859459999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.33784790469999998" green="0.54709333260000004" blue="0.82108160620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.58356144639999996" green="0.98671439890000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Whw-X0-SsG" firstAttribute="top" secondItem="4Tj-hN-DXc" secondAttribute="top" constant="8" id="34l-23-ph2"/>
+                            <constraint firstItem="Whw-X0-SsG" firstAttribute="leading" secondItem="4Tj-hN-DXc" secondAttribute="leading" constant="8" id="NDN-PZ-Gsp"/>
+                            <constraint firstItem="4Tj-hN-DXc" firstAttribute="bottom" secondItem="Whw-X0-SsG" secondAttribute="bottom" constant="8" id="Spd-Su-Hb5"/>
+                            <constraint firstItem="4Tj-hN-DXc" firstAttribute="trailing" secondItem="Whw-X0-SsG" secondAttribute="trailing" constant="8" id="ksQ-if-TXs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4Tj-hN-DXc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hello!" id="zeg-H7-hVt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFm-Kh-qcO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-580" y="102"/>
+        </scene>
+    </scenes>
+</document>
