@@ -11,7 +11,7 @@
 
 *Рекомендуется проверять работу приложения для iPhoneX*
 
-<img width="200" alt="portfolio_view" src="https://github.com/KonstantinSt77/BipBopGame/blob/master/bip.png"><img width="200" alt="portfolio_view" src="https://github.com/KonstantinSt77/BipBopGame/blob/master/bip1.png"><img width="200" alt="portfolio_view" src="https://github.com/KonstantinSt77/BipBopGame/blob/master/bip2.png"><img width="200" alt="portfolio_view" src="https://github.com/KonstantinSt77/BipBopGame/blob/master/bip3.png">
+<img width="200" alt="portfolio_view" src="https://github.com/KonstantinSt77/BipBopGame_Swift_ObjC/blob/master/bip.png"><img width="200" alt="portfolio_view" src="https://github.com/KonstantinSt77/BipBopGame_Swift_ObjC/blob/master/bip1.png"><img width="200" alt="portfolio_view" src="https://github.com/KonstantinSt77/BipBopGame_Swift_ObjC/blob/master/bip2.png"><img width="200" alt="portfolio_view" src="https://github.com/KonstantinSt77/BipBopGame_Swift_ObjC/blob/master/bip3.png">
 
 
 
